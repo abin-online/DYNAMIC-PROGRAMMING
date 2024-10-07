@@ -1,4 +1,5 @@
-const reverse = (str , memo = {})=> {
+const reverse = (str )=> {
+
 
     if(str.length < 2 ){
         return str
